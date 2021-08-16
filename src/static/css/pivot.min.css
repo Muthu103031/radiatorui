@@ -1,0 +1,38 @@
+.pvtUi{color:#333; width: 100%;}table.pvtTable{font-size:8pt;text-align:left;border-collapse:collapse}table.pvtTable tbody tr th,table.pvtTable thead tr th{background-color:#e6EEEE;border:1px solid #CDCDCD;font-size:8pt;padding:5px}table.pvtTable .pvtColLabel{text-align:center}table.pvtTable .pvtTotalLabel{text-align:right}table.pvtTable tbody tr td{color:#3D3D3D;padding:5px;background-color:#FFF;border:1px solid #CDCDCD;vertical-align:top;text-align:right}.pvtGrandTotal,.pvtTotal{font-weight:700}.pvtVals{text-align:center;white-space:nowrap}.pvtColOrder,.pvtRowOrder{cursor:pointer;width:15px;margin-left:5px;display:inline-block}.pvtAggregator{margin-bottom:5px}.pvtAxisContainer,.pvtVals{border:1px solid gray;background:#EEE;padding:5px;min-width:20px;min-height:20px;user-select:none;-webkit-user-select:none;-moz-user-select:none;-khtml-user-select:none;-ms-user-select:none}.pvtAxisContainer li{padding:8px 6px;list-style-type:none;cursor:move}.pvtAxisContainer li.pvtPlaceholder{-webkit-border-radius:5px;padding:3px 15px;-moz-border-radius:5px;border-radius:5px;border:1px dashed #aaa}.pvtAxisContainer li span.pvtAttr{-webkit-text-size-adjust:100%;background:#F3F3F3;border:1px solid #DEDEDE;padding:2px 5px;white-space:nowrap;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.pvtTriangle{cursor:pointer;color:grey}.pvtHorizList li{display:inline}.pvtVertList{vertical-align:top}.pvtFilteredAttribute{font-style:italic}.pvtFilterBox{z-index:100;width:300px;border:1px solid gray;background-color:#fff;position:absolute;text-align:center}.pvtFilterBox h4{margin:15px}.pvtFilterBox p{margin:10px auto}.pvtFilterBox label{font-weight:400}.pvtFilterBox input[type=checkbox]{margin-right:10px;margin-left:10px}.pvtFilterBox input[type=text]{width:230px}.pvtFilterBox .count{color:gray;font-weight:400;margin-left:3px}.pvtCheckContainer{text-align:left;font-size:14px;white-space:nowrap;overflow-y:scroll;width:100%;max-height:250px;border-top:1px solid #d3d3d3;border-bottom:1px solid #d3d3d3}.pvtCheckContainer p{margin:5px}.pvtRendererArea{padding:5px}
+
+
+/*manual css*/
+.pivot-tetro-table .pvtAxisContainer, .pivot-tetro-table .pvtVals {border: 1px solid #062778;background: #f8fbff;border-radius: 5px;padding: 10px;}
+.pivot-tetro-table table.pvtTable tbody tr th, .pivot-tetro-table table.pvtTable thead tr th, .pivot-tetro-table .pvtTable tbody tr td {background-color: #f8fbff;border: 1px solid #062778;font-size: 8pt;padding: 5px;}
+.pivot-tetro-table table.pvtTable thead tr th{background-color: #062778;color: #ffffff;}
+.pivot-tetro-table .pvtAxisContainer li span.pvtAttr {background: #ffbc9f;border: none;padding: 2px 5px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;color:#062778;font-size: 13px;width: 150px;display: inline-block;}
+.pivot-tetro-table .pvtAxisContainer li {padding: 2px 0px;}
+.pivot-tetro-table .pvtTriangle {color: #062778;float: right;}
+.pivot-tetro-table tr td:first-child{max-width:170px; word-wrap: nowrap;}
+.pivot-tetro-table tr td:nth-child(2){max-width:170px;word-wrap: nowrap;}
+.pivot-tetro-table tr td {word-wrap: nowrap !important;}
+.pivot-tetro-table .pvtAggregator{width:80%}
+.pivot-tetro-table .pvtAttrDropdown{width:100%}
+.pivot-tetro-table .pvtRenderer{width:150px}
+.pivot-tetro-table select{border: none;outline: none;background: #ffbc9f;font-size: 13px;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 3px;color:#062778;}
+.pivot-tetro-table .pvtUiCell{padding: 0px 10px;}
+.pivot-tetro-table .pvtFilterBox {width: 300px;border: none;background-color: #ecf5ff;border-radius: 5px;box-shadow: 0px 0px 20px 2px rgba(0, 136, 255,0.3);}
+.pivot-tetro-table .pvtFilterBox h4{margin: 5px;}
+.pivot-tetro-table .pvtFilterBox h4 span{color:#062778;font-size: 15px;}
+.pivot-tetro-table .pvtSearch{background: #ffbc9f;border: none;outline: none;border-radius: 5px;color:#062778;font-size: 13px;padding: 10px;margin-bottom: 5px;}
+.pivot-tetro-table button{background: #062778;color:#ffffff; margin: 0px 15px;border-radius: 5px;border: none;outline: none;font-size: 13px;height: 35px; width: 100px;}
+.pivot-tetro-table .pvtCheckContainer::-webkit-scrollbar {width: 7px;}  
+.pivot-tetro-table .pvtCheckContainer::-webkit-scrollbar-track {background: #ffbc9f;border-radius: 10px}
+.pivot-tetro-table .pvtCheckContainer::-webkit-scrollbar-thumb {background: #062778;border-radius: 10px}
+.pivot-tetro-table .pvtCheckContainer::-webkit-scrollbar-thumb:hover {background: #062778; }
+.pivot-tetro-table .pvtCheckContainer{display: flex;flex-wrap: wrap;}
+.pivot-tetro-table .pvtCheckContainer p{font-size: 12px;width: 50%;}
+.pivot-tetro-table .pvtCheckContainer{white-space: normal;}
+.pivot-tetro-table .pvtCheckContainer p label{margin-bottom: 0px;}
+.pivot-tetro-table .pvtCheckContainer p span{ }
+
+
+
+/* .pvtAxisContainer{width: 100px !important} */
+.pvtUiCell:first-child{width: 100px;}
+.pvtTable{width: 100%;}
